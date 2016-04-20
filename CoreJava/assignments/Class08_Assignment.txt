@@ -13,7 +13,7 @@ output :
 
 =================================
 
-Question : what will be printed in the below line when the age is 20
+Question : what will be printed in the below line when the age is 30 or 20 
 
 if(age == 20) 
 				System.out.println("I am still Young");
