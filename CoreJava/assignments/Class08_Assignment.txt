@@ -1,0 +1,53 @@
+=================================
+Question:
+int details[][] = {{30,5},{20, 4},{34,8}};
+
+
+Code:
+Use the for loop and print all the values using it.
+
+output :
+	30 == 5
+	20 == 4
+	34 == 8
+
+=================================
+
+Question : what will be printed in the below line when the age is 20
+
+if(age == 20) 
+				System.out.println("I am still Young");
+				System.out.println("I play football");
+			if(age == 30)
+				System.out.println("Wow I have reached 30 !!!");
+				
+================================================================
+Question : Create a method in a class, make sure to make it as static method for now , and invoke it from a different class.
+
+
+================================================================
+Assumption: 
+	I know the below code is going to print the block of code inside while loop contineously
+	like..
+		Hello 1
+		Hello 2
+			.
+			.
+			.
+while(true){
+			System.out.println("Hello " + index++);
+		}
+Task : 
+	How would i be doing the same using for loop
+	
+
+==================================
+
+Question: 
+In SwitchStatement::switchStatement() remove the break from line 22 and see what is the output...(NOTE : first run the existing program and then remove the break)
+
+
+==========================
+Question: 
+Suppose you have a print statement after switch-case statement, but before the end of the for loop, will it print upon executing one of the break statements in the for-loop?
+
