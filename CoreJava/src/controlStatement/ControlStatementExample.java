@@ -32,7 +32,7 @@ public class ControlStatementExample {
 	}
 
 	public static void ifElseCondition() {
-
+		
 		int ages[] = { 20, 30, 40 };
 		int totalMarks = 59;
 

@@ -1,0 +1,62 @@
+===================
+Using continue print all the odd numbers. and also the even numbers...
+
+output 
+	Even : 2 4 6 8
+	Odd Numbers : 
+	
+==============================	
+I have a int allArray[100] of size 100
+tempEven[50]
+tempOdd[50]
+
+/*1 2 3 4 5 6 7 8 9
+
+tempOdd[0] = 1;
+tempEven[0] = 2;
+
+tempOdd[1] = 3;
+tempEven[1] = 4;
+*/
+
+for(loop allArray){
+ find even number and put it inside the tempEven array
+ find odd number and put it inside the tempOdd array
+}
+
+a)Then Loop evenArray and oddArray to print all the values.
+b) add all the Odd Number and find out the final result
+c) add all the Even Number and find out the final result
+	
+=======================================================	
+1:	3	4	6
+2:	7	8	9
+3:	11	45	36
+
+String fruits[] = {"apple","banana","kiwi"};
+String sports[] = {"football","baseball","cricket"};
+String laptops[] = {"mac","lenovo","ibm"}
+
+String goods[][] = {fruits,sports,laptops}; // new String[3][3];
+
+ for(int i = 0 ; i < goods.length; i++){
+	String eachGood[] = goods[i];
+	for(int j = 0 ; j < eachGood.length; j++){
+		//sop(eachGood[j]);
+		String value = goods[i][j];
+		// value == cricket
+		if(value.equals("cricket"))
+				break;
+		//break outerLoop; // when you use this please use outerLoop : //in the first for loop
+		
+		sop(value);
+	}
+	sop("Lenght is "+ eachGood.length);
+	
+}
+
+===============
+
+Program 1: Reverse a number using while Loop
+
+	
