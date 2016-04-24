@@ -1,0 +1,25 @@
+Question : 
+
+	In SchoolClient.java we are try to access like
+	studMaha.studName
+	studMaha.studId
+	Now remove the public keyword from the instance variables
+	and try to access it again.
+	
+Question 2 :
+		After doing the above. Create a different class(OutSidePack.java) outside
+		the package classesexample and try to do the same below:
+		Student studMaha = new Student();
+		studMaha.studName = "Maha";
+		studMaha.studId = 23;
+		studMaha.studGrade = "Fifth";
+
+
+Question 3:
+	In AssignAddressToStudent.java when i print the below line, i shud get an appropriate value.
+	System.out.println(studMeena.address.country);
+	System.out.println(studMeena.address.state);
+	System.out.println(studMeena.address.addressOne);
+HINTS: starting line 12 you shud be writing some code to set the addrees to student.
+
+	
