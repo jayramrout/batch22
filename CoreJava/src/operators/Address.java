@@ -1,4 +1,4 @@
-package classesexample;
+package operators;
 
 public class Address {
 	public String state;

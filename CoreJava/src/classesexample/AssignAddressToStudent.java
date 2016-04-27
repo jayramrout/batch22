@@ -1,5 +1,7 @@
 package classesexample;
 
+import operators.Address;
+
 public class AssignAddressToStudent {
 
 	public static void main(String[] args) {
@@ -11,9 +13,15 @@ public class AssignAddressToStudent {
 		
 		// CODE STARTS HERE
 		// Please check on this if this works !!!...
-		studMeena.address.state = "North Carolina";
+		
+		Address address = new Address();
+		address.state = "North Carolina";
+
+		studMeena.address = address;
+		
+//		studMeena.address.state = "North Carolina";
 		// CODE ENDS HERE
-		System.out.println(studMeena.address.country);// INDIA , USA
+		System.out.println(studMeena.address.state);// INDIA , USA
 		
 	}
 }
