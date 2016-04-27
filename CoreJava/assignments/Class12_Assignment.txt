@@ -1,0 +1,10 @@
+Question:
+	Create an Object (Student) and invoke a method or variable.
+	Just create a reference and assign it as null and then invoke a method on that.
+
+Question:
+	Add Address array to Student, then add multiple address to the Student;
+	HINT : public Address address[];//this goes in your Student class.
+	
+Question:
+	Create another projectB(add some classes in it with package structure) and access a class from projectA
