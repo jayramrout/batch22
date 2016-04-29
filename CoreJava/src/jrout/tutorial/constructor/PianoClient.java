@@ -21,5 +21,10 @@ public class PianoClient {
 		//===============================
 		Piano blackYamaha = new Piano("Yamaha","Black");
 		System.out.println(blackYamaha.brand);
+		
+		
+		Piano personalPiano = new Piano("Yamaha","Gold", "MyPiano",3);
+		personalPiano.printDetails();
+		
 	}
 }
