@@ -1,0 +1,18 @@
+question : try a combination of diff. Var args
+		calc("",3,4,5,6,6) // this is a combination of String and int...
+		
+Question:
+	Activate the garbage collector in eclipse and play around with it.
+	
+	
+printDetails(String name)
+	printDetails();
+	System.out.println("Details for "+ name);
+	
+Question:
+	Student stud = new Student();
+		stud.setSName("Jayram"); 
+		
+	jrout.tutorial.settergetter.School
+	what changes should i be making in Student Class so that i will not be able to 
+	change the names at any given point of time.
