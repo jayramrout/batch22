@@ -1,13 +1,13 @@
 package jrout.tutorial.constructor;
 
 public class Piano {
-	String name;
-	String color;
-	String brand;
+	public String name;
+	public String color;
+	public String brand;
 	int size;
 	
 	public Piano(String brand){
-		System.out.println(brand + "Got Created");
+		System.out.println(brand + " Got Created");
 		this.brand = brand;
 	}
 	
@@ -29,11 +29,28 @@ public class Piano {
 	public void printDetails() {
 		System.out.println("Piano Details = "+ 
 				brand + " " + color + " " + name + " " + size);
-		printDetails("Test");
 	}
 	
 	public void printDetails(String name){
-		printDetails();
+		this.printDetails();
 		System.out.println("Details for "+ name);
+	}
+	
+	protected void finalize() throws Throwable {
+		System.out.println("I am been destroyed" + brand);
+		unplugPowerSource();
+	}
+	
+	public void createPowerSource(){
+		System.out.println("Power Source has been created...");
+	}
+	
+	public void unplugPowerSource(){
+		System.out.println("Un plug power source...");
+	}
+	
+	public void play(){
+		createPowerSource();
+		System.out.println("Piano.play() :: I am playing lalalalala" );
 	}
 }

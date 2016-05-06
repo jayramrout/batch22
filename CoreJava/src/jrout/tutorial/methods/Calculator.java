@@ -41,5 +41,20 @@ public class Calculator {
 		return temp;
 		
 	}
+	/**
+	 * calc("",3,4,5,6,6)
+	 * @param height
+	 * @param array
+	 * @return
+	 */
+	public int calc(String name , int...array){
+		System.out.println("Hello this is Variable Args");
+		int temp = 0;
+		for(int val : array){
+			temp+= val;
+		}
+		return temp;
+		
+	}
 
 }
