@@ -1,0 +1,18 @@
+Question:
+	Try to invoke a non-static method from a static method.
+	Then do the vice-versa
+
+Question:
+		create a static variable and use this.<variableName>
+		
+Question:
+	Check whether String is palindrome using recursion.
+		NOTE:
+		/* check for first and last char of String:
+         * if they are same then do the same thing for a substring
+         * with first and last char removed. and carry on this
+         * until you string completes or condition fails
+         * Function calling itself: Recursion
+         */
+Question : 
+	Reverse a number using recursion

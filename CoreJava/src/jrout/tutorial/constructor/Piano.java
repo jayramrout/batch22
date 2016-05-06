@@ -27,6 +27,7 @@ public class Piano {
 	}
 
 	public void printDetails() {
+		int cost = 100;
 		System.out.println("Piano Details = "+ 
 				brand + " " + color + " " + name + " " + size);
 	}

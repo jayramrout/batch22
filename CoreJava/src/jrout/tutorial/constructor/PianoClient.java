@@ -1,5 +1,7 @@
 package jrout.tutorial.constructor;
 
+import jrout.tutorial.corejava.constants.ApplicationConstants;
+
 public class PianoClient {
 
 	public static void main(String[] args) {
@@ -25,6 +27,8 @@ public class PianoClient {
 		
 		Piano personalPiano = new Piano("Yamaha","Gold", "MyPiano",3);
 		personalPiano.printDetails();
+		
+		System.out.println("I stay in USA Capital : "+ApplicationConstants.USA_CAPITAL);
 		
 	}
 }
