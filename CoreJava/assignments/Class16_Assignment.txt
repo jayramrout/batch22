@@ -1,0 +1,13 @@
+Question:
+	Create a Music enum which would have at least 5 names of diff. music and use that to pass on to  method which prints the name of the muscis.
+
+	main()
+		printMusicName(Music.GUI)
+	public void printMusicName(Music music){
+		sop(); // This is Harmonica	
+	}
+NOTE : You have to use constructor to pass the actual value.
+
+
+Question :
+	Inside JayArchitecture class make the KitchenArchitect class as static. And then from InnerClassClientExample access the KitchArchitect class directly.
