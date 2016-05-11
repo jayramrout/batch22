@@ -1,0 +1,5 @@
+Question:
+	I have got a time in millisecods : 1462928931995
+	Find out wht is the exact Timestamp of the millisec.
+	NOTE: Google: convert milliseconds to Date
+	eg : Tue May 10 21:10:38 EDT 2016	
