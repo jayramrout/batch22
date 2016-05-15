@@ -6,7 +6,6 @@ public abstract class Person {
 	private int height;
 	private int age;
 
-
 	public Person(String name){
 		this.name = name;
 	}
@@ -45,5 +44,7 @@ public abstract class Person {
 		System.out.println("Person Name =" + this.name);
 	}
 
+	public abstract void behavior();
+	public abstract void performance();
 
 }

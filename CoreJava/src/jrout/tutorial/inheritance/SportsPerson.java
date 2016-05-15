@@ -15,6 +15,16 @@ public class SportsPerson extends Person {
         super(name, age);
     }
 
+    @Override
+    public void behavior() {
+        System.out.println("Being a sports person i shud be energetic...");
+    }
+
+    @Override
+    public void performance() {
+        System.out.println("Being a Sports Person I shud give extract performance....");
+    }
+
     public String getSports() {
         return sports;
     }

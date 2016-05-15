@@ -1,0 +1,14 @@
+Question:
+        Make Person class as non abstract and make the Employee class(which is an abstract class) to extend
+        the Person class.
+
+Assignment:
+
+    // Below Code is good
+    Employee emp = new Manager("Vijay","Managing the Project");
+    emp.schedule();
+
+    //Find out what is going on with the below code.
+        Person per = new Manager("Vijay","Managing the Project");
+        per.schedule();
+        GOOGLE : using the super class method can we refer a sub class method.

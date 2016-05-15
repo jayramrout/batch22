@@ -22,8 +22,12 @@ public class Clerk extends Employee {
 		this.clerkTask = clerkTask;
 	}
 
-	public void printDetails() {
-		System.out.println("Clerk Name =" + super.getName());
-		System.out.println("Clerk Task is  =" + this.clerkTask);
+	@Override
+	public void behavior() {
+		System.out.println("Being cleak i shud behave very polite");
+	}
+
+	public void schedule(){
+		System.out.println("Clerk Schedule is to come by 8am and go back by 4 pm");
 	}
 }
