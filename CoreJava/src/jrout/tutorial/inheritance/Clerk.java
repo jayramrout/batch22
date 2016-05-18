@@ -1,6 +1,6 @@
 package jrout.tutorial.inheritance;
 
-public class Clerk extends Employee {
+public class Clerk extends Employee implements Running {
 	private String clerkTask;
 
 	public Clerk(String name , String clerkTask){
@@ -29,5 +29,10 @@ public class Clerk extends Employee {
 
 	public void schedule(){
 		System.out.println("Clerk Schedule is to come by 8am and go back by 4 pm");
+	}
+
+	@Override
+	public void run() {
+		System.out.println("Clerks Run very fast..");
 	}
 }

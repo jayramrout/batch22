@@ -12,6 +12,8 @@ public class InheritanceClient {
 		Person person = new Manager("Vijay","Managing the Project");
 		person.printDetails();
 
+		Person sportsPerson = new SportsPerson("Jayram");
+
 //		SportsPerson sportsPerson = new SportsPerson("Jayram");
 
 
