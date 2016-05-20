@@ -1,0 +1,44 @@
+Question :
+    use a compination of try/catch as well as try/catch/finally
+    as well as try/finally
+
+Assignment:
+       run a happy Path for getMeAgeOnIndex() method but fail the getSuitableHeight()
+       Now see to which block of exception it is going to fall.
+
+Assignment:
+       Create another functionality which calculates the bmi(Body Mass Index)
+       getTheBMI(). Now create an exception explicitly.
+       And then see to which block of exception it is going to.
+
+Assignment:
+       We have got the below Code now:
+                }catch(IndexingException ie){
+                    System.err.println("This is Indexing Exception");
+                }catch(HeightException he){
+                    System.err.println("This is Height Exception");
+                }catch(Exception exp){
+                    exp.printStackTrace();
+                    age = 15;
+                }
+
+       Rewrite this code with
+            first:
+                catch(HeightException he){
+                   System.err.println("This is Height Exception");
+               }catch(IndexingException ie){
+                                   System.err.println("This is Indexing Exception");
+                }
+                               catch(Exception exp){
+                   exp.printStackTrace();
+                   age = 15;
+               }
+            Second: This will lead to an Issue
+                 catch(Exception exp){
+                     exp.printStackTrace();
+                     age = 15;
+                }catch(IndexingException ie){
+                     System.err.println("This is Indexing Exception");
+                 }catch(HeightException he){
+                     System.err.println("This is Height Exception");
+                 }
