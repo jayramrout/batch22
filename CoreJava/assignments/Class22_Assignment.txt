@@ -1,0 +1,11 @@
+Assigment:
+    Delete an existing file by invoking the delete method under file class
+
+Assign :
+      Read the content of one file and write it to the another file.
+
+Assign:
+    Take input from command line and write it to the file system.
+
+Use the FileReader and FileWriter to read a .pdf file and write to another .pdf file
+Use the FileInputStream and FileOutputStream to read a .pdf file and write to another .pdf file
