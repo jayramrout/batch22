@@ -30,4 +30,9 @@ public class Manager extends Employee {
 	public void schedule(){
 		System.out.println("Manager  Scheduel is to come by 10am and go back by 6 pm");
 	}
+
+	@Override
+	public String toString() {
+		return "Name ="+ this.getName() +" Task ="+ this.getManagerTask();
+	}
 }

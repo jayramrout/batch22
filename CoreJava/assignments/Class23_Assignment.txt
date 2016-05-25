@@ -1,0 +1,13 @@
+Assign:
+    Using recursive function read all the files under a folder
+    and sub-folder.
+    output:
+        c:/book/File.txt
+        c:/book/java/file2.java
+
+Assign:
+    create a string array[] with multiple names in it.
+    now try to get the unique names
+    how to do :
+        loop the array and store each names inside the set.
+

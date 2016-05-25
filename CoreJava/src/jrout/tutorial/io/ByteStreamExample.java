@@ -88,8 +88,8 @@ public class ByteStreamExample {
 
 
 	private static void tryWithResource() throws IOException {
-		try(FileInputStream fileInputStream = new FileInputStream(
-				inputFile); FileOutputStream fos = new FileOutputStream(outputFile) ){
+		try(FileInputStream fileInputStream = new FileInputStream(inputFile);
+			FileOutputStream fos = new FileOutputStream(outputFile) ){
 			int c;
 			while ((c = fileInputStream.read()) != -1) {
 				fos.write(c);
