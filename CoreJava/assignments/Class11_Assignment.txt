@@ -8,7 +8,7 @@ Question :
 	
 Question 2 :
 		After doing the above. Create a different class(OutSidePack.java) outside
-		the package classesexample and try to do the same below:
+		the package jrout.tutorial.classesexample and try to do the same below:
 		Student studMaha = new Student();
 		studMaha.studName = "Maha";
 		studMaha.studId = 23;
