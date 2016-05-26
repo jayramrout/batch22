@@ -1,0 +1,10 @@
+Assign: Take two list and add it to a common list;
+     List<String> americanFruit = new ArrayList();
+     List<String> indianFruit = new ArrayList();
+
+     List<String> fruit = new ArrayList();
+     fruits.addAll(af);
+     sout(friuts);
+
+Assign:
+    Implement sort using Country
