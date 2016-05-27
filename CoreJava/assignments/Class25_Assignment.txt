@@ -1,0 +1,6 @@
+Assign:
+    Create EmployeeInfo class with fn , ln , deptName , postalCode
+    In the while loop create new EmployeeInfo Object and populate all the respective data using setter method
+    and then add it to the list;
+    at last pass this list to the manipulateEmployee() method.
+
