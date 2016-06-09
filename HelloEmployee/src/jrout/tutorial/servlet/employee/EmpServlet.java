@@ -26,7 +26,7 @@ public class EmpServlet extends HttpServlet {
 	 */
 	public EmpServlet() {
 		super();
-		System.out.println("I am been created");
+		System.out.println("I am been created as a first servlet");
 	}
 
 	@Override
