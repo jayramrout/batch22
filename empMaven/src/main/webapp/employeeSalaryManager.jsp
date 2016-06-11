@@ -37,7 +37,7 @@
 				<td><%=emp.getSalary()%></td>
 				<td><%=emp.getManagerId()%></td>
 			</tr>
-		<%		
+		<%	
 			}
 		%>
 			<!-- <tr>
