@@ -29,7 +29,6 @@ public class EmployeeDAOImpl implements IEmployeeDAO {
 
 	}
 
-	@Override
 	public List<Employee> getEmpWithDepartMent(int deptId) {
 		List<Employee> employeeList = new ArrayList<Employee>();
 		try {
@@ -37,6 +36,7 @@ public class EmployeeDAOImpl implements IEmployeeDAO {
 			rs = stmt.executeQuery(
 					"select EMPLOYEE_ID , FIRST_NAME , LAST_NAME , EMAIL from employees where DEPARTMENT_ID = "
 							+ deptId);
+			
 			Employee emp = null;
 			
 			while (rs.next()) {
@@ -62,8 +62,8 @@ public class EmployeeDAOImpl implements IEmployeeDAO {
 		return employeeList;
 	}
 
-	@Override
 	public List<Employee> getEmpSalaryManagerDepartMent(int deptId) {
+		
 		List<Employee> employeeList = new ArrayList<Employee>();
 		try {
 			stmt = con.createStatement();
@@ -93,5 +93,4 @@ public class EmployeeDAOImpl implements IEmployeeDAO {
 		}
 		return employeeList;
 	}
-
 }
